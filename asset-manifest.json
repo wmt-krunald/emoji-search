@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/emoji-search/static/css/main.65605343.chunk.css",
-    "main.js": "/emoji-search/static/js/main.ad81996d.chunk.js",
-    "main.js.map": "/emoji-search/static/js/main.ad81996d.chunk.js.map",
+    "main.js": "/emoji-search/static/js/main.5ad881b6.chunk.js",
+    "main.js.map": "/emoji-search/static/js/main.5ad881b6.chunk.js.map",
     "runtime-main.js": "/emoji-search/static/js/runtime-main.d8cd5ee4.js",
     "runtime-main.js.map": "/emoji-search/static/js/runtime-main.d8cd5ee4.js.map",
     "static/css/2.5510c45e.chunk.css": "/emoji-search/static/css/2.5510c45e.chunk.css",
     "static/js/2.9f764114.chunk.js": "/emoji-search/static/js/2.9f764114.chunk.js",
     "static/js/2.9f764114.chunk.js.map": "/emoji-search/static/js/2.9f764114.chunk.js.map",
     "index.html": "/emoji-search/index.html",
-    "precache-manifest.fc9c0ef8a7e3152f47096128e4c9ef2b.js": "/emoji-search/precache-manifest.fc9c0ef8a7e3152f47096128e4c9ef2b.js",
+    "precache-manifest.1aa83b77dcdb6bd29572d1ebdcbbc14d.js": "/emoji-search/precache-manifest.1aa83b77dcdb6bd29572d1ebdcbbc14d.js",
     "service-worker.js": "/emoji-search/service-worker.js",
     "static/css/2.5510c45e.chunk.css.map": "/emoji-search/static/css/2.5510c45e.chunk.css.map",
     "static/css/main.65605343.chunk.css.map": "/emoji-search/static/css/main.65605343.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5510c45e.chunk.css",
     "static/js/2.9f764114.chunk.js",
     "static/css/main.65605343.chunk.css",
-    "static/js/main.ad81996d.chunk.js"
+    "static/js/main.5ad881b6.chunk.js"
   ]
 }
