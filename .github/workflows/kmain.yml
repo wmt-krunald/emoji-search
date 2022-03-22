@@ -48,11 +48,21 @@ jobs:
         name: production-files
         path: ./build
         
-    - name: Deploy Netlify
-      uses: jsmrcaga/action-netlify-deploy@v1.1.0
+    # - name: Deploy Netlify
+    #   uses: jsmrcaga/action-netlify-deploy@v1.1.0
+    #   with:
+    #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_ACCES_TOKEN }}
+    #     NETLIFY_SITE_ID:  ${{ secrets.NETLIFY_SITE_ID }}
+    #     build_command: "echo hello"
+    #     install_command: "echo hello"
+    #     NETLIFY_DEPLOY_TO_PROD: true
+
+    - name: Deploy on Vercel
+    - uses: amondnet/vercel-action@v20 #deploy
       with:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_ACCES_TOKEN }}
-        NETLIFY_SITE_ID:  ${{ secrets.NETLIFY_SITE_ID }}
-        build_command: "echo hello"
-        install_command: "echo hello"
-        NETLIFY_DEPLOY_TO_PROD: true
+        vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+        github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
+        vercel-args: '--prod' #Optional
+        vercel-org-id: ${{ secrets.ORG_ID}}  #Required
+        vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
+        working-directory: ./sub-directory
